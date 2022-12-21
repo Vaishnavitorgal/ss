@@ -1,0 +1,12 @@
+$      COPY     START    2000
+2003            FIX
+2004            HIO
+2005   INPUT    BYTE     X'F1'
+2006            RSUB
+2009            RMO      A,X
+200B   LEN      RESW     1
+200D            NORM
+200E            BYTE     C'KLE'
+2012            RESB     4096
+3012            CLEAR    A
+3014            END

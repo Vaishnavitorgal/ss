@@ -1,0 +1,5 @@
+LDX   04
+LDCH  50
+STCH  54
+TIX   2C
+JLT   38
